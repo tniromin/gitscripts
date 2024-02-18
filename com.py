@@ -1,6 +1,11 @@
 import subprocess
 import sys
 
+
+# git push --set-upstream <remote_Name> <branch>  
+# Add the initialization commands for creating a remote repo. 
+
+
 def commit(commit_message):       
     try:
         subprocess.run(["git", "add", "."], check=True)
